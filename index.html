@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <!-- Navbar -->
+      <nav class="navbar1">
+        <a href="#" class="logo">Bruno Gustavo</a>
+        <ul class="nav-menu">
+          <li class="item">
+            <a href="#sobre" class="link"><div class="a-back">Sobre</div></a>
+          </li>
+          <li class="item">
+            <a href="#habili" class="link"><div class="a-back">Habilidades</div></a>
+          </li>
+          <li class="item">
+            <a href="#projetos" class="link"
+              ><div class="a-back">Projetos</div></a
+            >
+          </li>
+          <li class="item">
+            <a href="#contato" class="link"
+              ><div class="a-back">Contato</div></a
+            >
+          </li>
+        </ul>
+        <div class="info">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- Principal -->
+      <div class="img-back">
+        <section class="section-principal" id="sobre">
+          <div class="bio">
+            <h1 class="bio-title">Sobre Mim</h1>
+            <p class="p-endereco">Caldas Novas - Goias</p>
+            <p class="p-sobre">
+              Meu nome é Bruno Gustavo sou um dev. Front-End apaixonado por
+              tecnologia. Meu primeiro contato com programação foi enquanto eu
+              estava no ensino médio. Mas só fui dar o devido foco em 2022
+              quando comecei a cursar Ciência da Computação pela Universidade
+              Católica de Brasília - UCB. Estou sempre em busca de novas
+              oportunidades para aperfeiçoar minhas habilidades. Meu objetivo e
+              aprender e crescer na área.
+            </p>
+            <div id="btn-center">
+              <button class="botao" id="curriculo">Curriculo</button>
+              <button class="botao" id="github">GitHub</button>
+              <button class="botao" id="linkedin">Linkedin</button>
+            </div>
+          </div>
+        </section>
+        <div class="line"></div>
+      </div>
+      <!-- Projetos -->
+      <section class="section-projetos" id="projetos">
+        <h2>Projetos</h2>
+        <p id="egip-projetos">προσωπικά έργα</p>
+        <div class="projetos">
+          <div class="div-projetos">
+            <a
+              href="https://djbrunodf.github.io/Oracle-One-Text-Decoder/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img
+                src="img\Decodificador.png"
+                class="img-esquerda"
+                alt="Imagem do Site Decoder"
+            /></a>
+            <div class="text-box">
+              <h3>Decodificador de Texto</h3>
+              <div class="underline"></div>
+              <p class="p-projetos">
+                Projeto desafio feito no programa oracle next education usando
+                HTML, CSS e JavaScript. É um simples decodificador de texto,
+                onde ele troca as letras "e", "i", "a", "o', "u", por "enter",
+                "imes", "ai", "ober", "ufat", respectivamente.
+              </p>
+              <button class="botao-projetos">
+                <a
+                  href="https://github.com/djbrunodf/Oracle-One-Text-Decoder"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img src="img/coding.png" class="img-botao" alt="code"
+                /></a>
+              </button>
+              <button class="botao-projetos">
+                <a
+                  href="https://djbrunodf.github.io/Oracle-One-Text-Decoder/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img src="img/link(1).png" class="img-botao" alt="code"
+                /></a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="projetos">
+          <div class="div-projetos">
+            <a
+              href="https://github.com/djbrunodf/Burger-site-Vue.jr-JSON-server"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img
+                src="img/Burguer.png"
+                class="img-direita"
+                alt="Imagem do Site Burger"
+            /></a>
+            <div class="text-box">
+              <h3>Vue.js</h3>
+              <p class="p-projetos">
+                Primeiro site usando Vue.js com JSON server, sem autenticação. É
+                um website que permite usuários criarem seu próprio hambúrguer e
+                enviarem para a equipe que ira preparar o pedido.
+              </p>
+            </div>
+            <button class="botao-projetos">
+              <a
+                href="https://github.com/djbrunodf/Burger-site-Vue.jr-JSON-server"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img src="img/coding.png" class="img-botao" alt="code"
+              /></a>
+            </button>
+          </div>
+        </div>
+      </section>
+      <div class="line"></div>
+      <!-- Contato -->
+      <section class="section-contato" id="contato">
+        <h2>Contato</h2>
+        <p></p>
+        <div class="contato">
+          <p class="p-contato">
+            <a href="mailto:brunogustavolacerda@gmail.com"
+              ><img src="img/o-email.png" class="img-contato" alt="mail" /></a
+            ><span id="text-contato">brunogustavolacerda@gmail.com</span>
+          </p>
+          <p class="p-contato">
+            <a
+              href="https://web.whatsapp.com/send?phone=5564984614803"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="img/whatsapp.png" class="img-contato" alt="zap" /></a
+            ><span id="text-contato">(64) 984614803</span>
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="navbar.js"></script>
+  </body>
+</html>
