@@ -111,7 +111,7 @@ header {
 
 .img-back {
   background-image: linear-gradient(to right, rgba(16, 9, 143, 0), rgba(0, 0, 0, 1)),
-  url("../principal/vista-traseira-do-programador-trabalhando-a-noite-toda.jpg");
+  url("../img/principal/vista-traseira-do-programador-trabalhando-a-noite-toda.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
