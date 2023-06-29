@@ -25,13 +25,22 @@ body {
   background: linear-gradient(217deg, black 30%, #06062E);
 }
 
-header {
-  background-color: #252525;
-}
-
 a {
   color: #fff;
   text-decoration: none;
+}
+
+h2 {
+  color: #fff;
+  margin: auto auto auto 35px;
+  font-weight: bold;
+  font-size: 100px;
+}
+
+/* Navbar ------------------------------------------------------------------*/
+
+header {
+  background-color: #252525;
 }
 
 .navbar1 {
@@ -105,6 +114,10 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
+/* Navbar Fim ------------------------------------------------------------------*/
+
+/* Principal ---------------------------------------------------------------*/
+
 .section-principal {
   margin: auto;
   display: flex;
@@ -116,7 +129,7 @@ a {
 
 .img-back {
   background-image: linear-gradient(to right, rgba(16, 9, 143, 0), rgba(0, 0, 0, 1)),
-  url("img/vista-traseira-do-programador-trabalhando-a-noite-toda.jpg");
+  url("/img/principal/vista-traseira-do-programador-trabalhando-a-noite-toda.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -128,7 +141,7 @@ a {
   margin-right: 50px;
 }
 
-.a-back {
+.navbar-margin {
   margin: 20px;
 }
 
@@ -153,16 +166,57 @@ a {
   font-size: 20px;
 }
 
-#egip-sobre {
-  color: #fff;
-  margin: -87px auto 100px 94px;
-  font-weight: bold;
-  font-size: 15px;
+/* Principal Fim ---------------------------------------------------------------*/
+
+/* Habilidades -----------------------------------------------------------------*/
+
+.section-habilidades {
+  margin: 20px 0 50px 0;
 }
 
-.line {
-  border-bottom: 1px solid #0e76a8;
+.habilidades-container {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0 0 0;
 }
+
+.img-habilidades {
+  width: 200px;
+}
+
+.fix-img-js {
+  width: 178px;
+  padding: 13px 0 10px 0;
+}
+
+.fix-img-vue {
+  width: 178px;
+  padding: 13px 0 10px 0;
+}
+
+.fix-img-git {
+  width: 170px;
+  padding: 0px 0 10px 0;
+}
+
+
+.habilidades {
+  width: 200px;
+  text-align: center;
+  display: block;
+  margin: 0 10px 1px 0;
+  float: left;
+}
+
+.text-habilidades {
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Habilidades Fim ---------------------------------------------------------------*/
+
+/* Botao --------------------------------------------------------------------------*/
 
 #btn-center {
   display: flex;
@@ -216,23 +270,12 @@ a {
   width: 20px;
 }
 
-.img-contato {
-  width: 50px;
-  padding-right: 20px;
-}
+/* Botao Fim --------------------------------------------------------------------*/
 
-h2 {
-  color: #fff;
-  margin: auto auto auto 35px;
-  font-weight: bold;
-  font-size: 100px;
-}
+/* Projetos --------------------------------------------------------------------*/
 
-#egip-projetos {
-  color: #fff;
-  margin: -10px auto 50px 45px;
-  font-weight: bold;
-  font-size: 15px;
+.section-projetos {
+  margin-top: 20px;
 }
 
 .img-esquerda {
@@ -251,7 +294,7 @@ h2 {
   margin-right: 15px;
 }
 
-.projetos {
+.projetos-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -262,17 +305,17 @@ h2 {
   width: 70%;
 }
 
-.text-box {
+.text-box-projetos {
   color: #fff;
 }
 
-.text-box h3 {
+.text-box-projetos h3 {
   font-size: 42px;
   position: relative;
   display: inline-block;
 }
 
-.text-box h3::before {
+.text-box-projetos h3::before {
   content: "";
   position: absolute;
   background-color: #0e76a8;
@@ -283,27 +326,47 @@ h2 {
   right: 0;
 }
 
-.text-box p {
+.text-box-projetos p {
   font-size: 1.7rem;
   margin-top: 25px;
   line-height: 2.1rem;
 }
 
-.p-contato {
-  color: #fff;
-  font-size: 34px;
-  display: flex;
-  justify-content: center;
-  line-height: 50px;
+/* Projetos Fim --------------------------------------------------------------------*/
+
+/* Contato -------------------------------------------------------------------------*/
+
+.section-contato {
+  margin: 20px 0 100px 0;
 }
 
-.contato {
-  margin-top: 100px;
+.contato-container {
+  margin-top: 70px;
+}
+
+.contato-container img {
+  width: 40px;
+  margin-right: 20px;
+}
+
+.p-contato {
+  color: #fff;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+
+/* Contato Fim ----------------------------------------------------------------------*/
+
+.line {
+  border-bottom: 1.5px solid #0e76a8;
 }
 
 @media (max-width: 500px) {
-  .img-contato {
-    width: 30px;
+  .contato-container img {
+    width: 20px;
   }
 
   .img-direita {
@@ -337,6 +400,16 @@ h2 {
 }
 
 @media (max-width: 768px) {
+
+  h2 {
+    color: #fff;
+    margin: auto auto auto 35px;
+    font-weight: bold;
+    font-size: 50px;
+  }
+
+  /* Navbar @media 768px----------------------------------------------------------------------*/
+
   .info {
     display: block;
   }
@@ -366,7 +439,7 @@ h2 {
     transition: 0.3s;
   }
 
-  .a-back {
+  .navbar-margin {
     margin: 20px 200px;
   }
 
@@ -374,9 +447,73 @@ h2 {
     left: 0;
   }
 
-  h2 {
+  /* Navbar @media 768px----------------------------------------------------------------------*/
+
+
+  /* Principal @media 768px----------------------------------------------------------------------*/
+
+  .section-principal {
     margin: auto;
+    display: flex;
+    align-items: center;
+    height: 700px;
   }
+
+  .bio {
+    width: 35rem;
+    text-align: center;
+    margin-right: 0;
+  }
+
+  /* Principal Fim @media 768px----------------------------------------------------------------------*/
+
+  /* Habilidades @media 768px----------------------------------------------------------------------*/
+
+  .section-habilidades {
+    margin: 20px 0 50px 0;
+  }
+  
+  .habilidades-container {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 0 0;
+  }
+  
+  .img-habilidades {
+    width: 100px;
+  }
+  
+  .fix-img-js {
+    width: 90px;
+    padding: 7px 0 10px 20px;
+  }
+
+  .fix-img-vue {
+    width: 90px;
+    padding: 7px 0 10px 0;
+  }
+  
+  .fix-img-git {
+    width: 85px;
+    padding: 0px 0 10px 0;
+  }
+  
+  
+  .habilidades {
+    width: 100px;
+    text-align: center;
+    display: block;
+    margin: 0 10px 1px 0;
+    float: left;
+  }
+  
+  .text-habilidades {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  /* Habilidades Fim @media 768px----------------------------------------------------------------------*/
 }
 
 @media (max-width: 1000px) {
