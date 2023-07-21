@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 19996c7209d346435fab6cffe2f51d97aa84f477
 html {
   scroll-behavior: smooth;
 }
@@ -113,7 +116,7 @@ header {
 
 .img-back {
   background-image: linear-gradient(to right, rgba(16, 9, 143, 0), rgba(0, 0, 0, 1)),
-  url("/img/principal/vista-traseira-do-programador-trabalhando-a-noite-toda.jpg");
+  url("../img/principal/vista-traseira-do-programador-trabalhando-a-noite-toda.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
