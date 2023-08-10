@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 19996c7209d346435fab6cffe2f51d97aa84f477
 html {
   scroll-behavior: smooth;
 }
@@ -186,6 +181,10 @@ header {
   padding: 0px 0 10px 0;
 }
 
+.fix-img-react {
+  width: 192px;
+  padding: 0px 0px 10px 0px;
+}
 
 .habilidades {
   width: 200px;
@@ -477,12 +476,17 @@ header {
 
   .fix-img-vue {
     width: 90px;
-    padding: 7px 0 10px 0;
+    padding: 7px 0px 10px 0px;
   }
   
   .fix-img-git {
     width: 85px;
-    padding: 0px 0 10px 0;
+    padding: 0px 0px 10px 0px;
+  }
+
+  .fix-img-react {
+    width: 98px;
+    padding: 0px 0px 10px 0px;
   }
   
   
@@ -501,9 +505,4 @@ header {
   }
 
   /* Habilidades Fim @media 768px----------------------------------------------------------------------*/
-}
-
-@media (max-width: 1000px) {
-    
-
 }
